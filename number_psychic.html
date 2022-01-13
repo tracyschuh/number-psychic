@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+		<title>Number Psychic</title>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="https://tracyschuh.com/number_psychic/CSS/number_psychic.css">
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src = "https://tracyschuh.com/number_psychic/number_guess.js"></script>
+    </head>
+    <body id= "allbodycontent">
+        <div id= "header">
+            <h1>
+                <span>
+                    <span>N</span>
+                    <span>u</span>
+                    <span>m</span>
+                    <span>b</span>
+                    <span>e</span>
+                    <span>r</span>
+                    <span>&nbsp;</span>
+                    <span>P</span>
+                    <span>s</span>
+                    <span>y</span>
+                    <span>c</span>
+                    <span>h</span>
+                    <span>i</span>
+                    <span>c</span>
+                </span></h1>
+        </div>
+        <div id= "flex_container">
+            <div id= "left">
+                <img src= "https://tracyschuh.com/number_psychic/images/tarot_500.jpg" alt = "tarot">
+            </div>
+            <div id="middle">
+                <h2>Please enter a number from 1 to 999.</h2>
+                <p>&#9830; I will guess your number in 10 attempts or less.</p><br>
+                <form action= "#" method= "post" enctype= "multipart/form-data" name= "userData">
+                    <input name= "userInput" id= "userInput" type= "text" size= "10"><br><br><br>
+                    <span class= "button" onclick= "numberGuess()">Submit</span>
+                </form>
+            </div>
+            <div id= "right">
+                <h2>~ Guess Tally ~</h2>
+                <div id= "guessResults"></div>
+            </div>
+        </div>
+        <div id= "footer">Number Games &copy; <script>document.write(new Date().getFullYear())</script></div>
+    </body>
+</html>
