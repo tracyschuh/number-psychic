@@ -1,46 +1,46 @@
 /* Primary Document Rules */
 body { 
-	background-color: whitesmoke;
-	color: black;
-	font-family: 'Raleway', sans-serif;
-	font-size: small; 
-	margin: 0px;
-	padding: 0px;
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: small; 
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
-	font-size: 150%;
-	font-weight: bold;
+    font-size: 150%;
+    font-weight: bold;
 }
 
 h2 {
-	font-size: 120%;
-	font-weight: bold;
+    font-size: 120%;
+    font-weight: bold;
 }
 
 #allbodycontent {
-	width: auto;
-	margin-left: auto;
-	margin-right: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Header Area */	
 #header {
-	height: 110px;
-	background-color: #171717;
-	color: white;
-	font-size: 200%;
-	text-shadow: 0px 0px 20px #F9A828, 1px 1px 20px #F9A828, 2px 2px 20px #F9A828, -1px -1px 20px #F9A828, -2px -2px 20px #F9A828;
-	padding-left: 15px;
-	padding-top: 1px;
-	margin-top: 20px;
-	text-align: center;
+    height: 110px;
+    background-color: #171717;
+    color: white;
+    font-size: 200%;
+    text-shadow: 0px 0px 20px #F9A828, 1px 1px 20px #F9A828, 2px 2px 20px #F9A828, -1px -1px 20px #F9A828, -2px -2px 20px #F9A828;
+    padding-left: 15px;
+    padding-top: 1px;
+    margin-top: 20px;
+    text-align: center;
 }
 
 /* burning header animation */
 h1 span span {
-	position: relative;
-	opacity: 0;
+    position: relative;
+    opacity: 0;
     animation: move-text 0.75s forwards;
 }
 
@@ -94,18 +94,18 @@ input {
     padding: 6px 8px;   
 }
 .button {
-	background-color: #2E383F;
+    background-color: #2E383F;
     color: white;
     border-radius: 3px;
-	border: 1px solid #2E383F;
-	padding: 6px 15px;
+    border: 1px solid #2E383F;
+    padding: 6px 15px;
 }
 /* right column */
 #right {
-	flex: 30%;
+    flex: 30%;
     background-color: #07617D;
     color: white;
-	text-align: center;	
+    text-align: center;	
 }
 .swal-button {
     background-color: #07617D;
@@ -115,13 +115,13 @@ input {
 }
 /* Footer Area */
 #footer {
-	background-color: #2E383F;
-	color: #F9A828;
-	text-align: center;
-	padding-top: 15px;
+    background-color: #2E383F;
+    color: #F9A828;
+    text-align: center;
+    padding-top: 15px;
     margin-top: 0;
-	height: 30px;
-	clear: both;
+    height: 30px;
+    clear: both;
 }
 /*responsive layout*/
 @media (max-width: 1000px) {
