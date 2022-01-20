@@ -1,4 +1,7 @@
 /* Primary Document Rules */
+html {
+    -webkit-text-size-adjust: 100%;
+}
 body { 
     background-color: whitesmoke;
     color: black;
@@ -175,6 +178,7 @@ input {
         padding-bottom: 10px;
         margin-top: 0;
         margin-bottom: 0;
+        font-size: 180%;
     }
     #left {
         padding-top: 0;
